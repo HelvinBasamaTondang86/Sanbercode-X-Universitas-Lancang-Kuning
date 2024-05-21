@@ -6,7 +6,7 @@
  	table categories
 - CREATE table categories ( id int PRIMARY KEY AUTO_INCREMENT, name varchar(255) NOT null );
 	table books
-- CREATE TABLE books ( id int PRIMARY KEY AUTO_INCREMENT, tittle varchar(255) NOT null, summary text NOT null, stock int NOT null, categories_id int NOT null, FOREIGN KEY(categories_id) REFERENCES categories(id) );
+- CREATE TABLE books ( id int PRIMARY KEY AUTO_INCREMENT, title varchar(255) NOT null, summary text NOT null, stock int NOT null, categories_id int NOT null, FOREIGN KEY(categories_id) REFERENCES categories(id) );
 
 3.insert data
 - INSERT INTO users(name,email,password) VALUES ("","jhon@doe.com","jhon123"),("Jane Doe","jane@doe.com","jenita123");
